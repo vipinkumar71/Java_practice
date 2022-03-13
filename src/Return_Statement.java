@@ -4,7 +4,9 @@ public class Return_Statement {
     public static int plus(int a , int c){
         return a+c;
     }
-    public static int plusAgain(){
+
+    public static int plus10(){
+
         return  10 +(plus (15, 5));
     }
 
